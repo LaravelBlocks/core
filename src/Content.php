@@ -8,6 +8,13 @@ use Illuminate\Database\Eloquent\Relations\MorphOne;
 abstract class Content extends Model
 {
     /**
+     * The fields that should be exposed for editing.
+     *
+     * @var array
+     */
+    public $fields = [];
+
+    /**
      * Get the rendered output of the block.
      *
      * @return mixed
