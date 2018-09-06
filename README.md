@@ -10,7 +10,7 @@ To get started creating your own content blocks, first pull in this core package
 composer require laravelblocks/core
 ```
 
-After installed you'll need to run the migration to create a `blocks` table in your database:
+After installed you'll need to run the migration to create the necessary table in your database:
 
 ```bash
 php artisan migrate
